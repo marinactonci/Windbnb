@@ -1,0 +1,36 @@
+img {
+  width: 100%;
+  max-height: 270px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+i {
+  color: #EB5757;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.super-host {
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  padding: 6px 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,10 @@
+<div class="">
+  <h1>Stays in Finland</h1>
+  <span>12+ stays</span>
+</div>
+
+<div class="stays-container">
+  <div *ngFor="let stay of stays" >
+    <app-stay [stay]="stay"></app-stay>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div>
+  <img [src]="stay.photo" [alt]="stay.title">
+  <div class="info-container">
+    <div class="type">
+      <div *ngIf="stay.superHost" class="super-host">SUPER HOST</div>
+      <div>{{stay.type}}</div>
+      <div *ngIf="stay.beds">. {{stay.beds}} beds</div>
+    </div>
+    <div class="rating">
+      <i class="material-icons-round">star</i>
+      <span>{{stay.rating}}</span>
+    </div>
+  </div>
+  <span>{{stay.title}}</span>
+</div>
